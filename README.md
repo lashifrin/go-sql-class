@@ -3,8 +3,10 @@
 * Database name is go_sql
 * To help with data db migrations - used migrate tool.
 
-* migrate create -ext sql -dir migrations create_users - will create migrations folder 
-in the repo.
+* To create migrations folder
+```
+migrate create -ext sql -dir migrations create_users
+```
 
 * Following commands will help with up and down scripts
 ```
